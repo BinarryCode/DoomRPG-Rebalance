@@ -2401,6 +2401,16 @@ void CheckCompatibility()
         Thing_Remove(TID);
     }
 
+    // Bosses From Hell
+    Success = SpawnForced("DRPGBossesFromHellActive", 0, 0, 0, TID, 0);
+    if (Success)
+    {
+        if (DebugLog)
+            Log("\CdDEBUG: \CaBosses From Hell \C- detected");
+        MapPacks = true;
+        Thing_Remove(TID);
+    }
+
     // Extras
     Success = SpawnForced("DRPGExtrasIsLoaded", 0, 0, 0, TID, 0);
     if (Success)
