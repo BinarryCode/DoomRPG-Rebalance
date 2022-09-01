@@ -1053,6 +1053,14 @@ typedef struct LegendaryDef_S       LegendaryDef;
 // Map Packs Compatibility
 //
 
+// Bosses From Hell
+//there is probably a better method for this, but this'll do for now -Binary
+#define BFH_MAPPACK  1
+typedef enum
+{
+    BFH_MAPSET
+} EnumBFHMapSet;
+
 // WadSmoosh Map Packs
 #define MAX_WSMAPPACKS  6
 typedef enum
@@ -1209,7 +1217,7 @@ typedef enum
 } EnumCOMPMapSets;
 
 // Max Map Packs
-#define MAX_MAPPACKS  (MAX_WSMAPPACKS + MAX_LEXMAPPACKS + MAX_COMPMAPPACKS)
+#define MAX_MAPPACKS  (MAX_WSMAPPACKS + MAX_LEXMAPPACKS + MAX_COMPMAPPACKS + BFH_MAPPACK)
 
 // --------------------------------------------------
 // Pointer Types
