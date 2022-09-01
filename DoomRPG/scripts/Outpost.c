@@ -485,7 +485,8 @@ NamedScript MapSpecial void LevelTransport()
         "Neodoom",
         "Annie",
         "99 Ways to Die",
-        "Back to Hell"
+        "Back to Hell",
+        "Bosses From Hell"
     };
 
     // So the player's initial interaction is not processed as a menu action
