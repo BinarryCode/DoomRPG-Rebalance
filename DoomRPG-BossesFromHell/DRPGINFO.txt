@@ -1,0 +1,2 @@
+Name=Bosses From Hell
+Mods=bfh1i.pk3

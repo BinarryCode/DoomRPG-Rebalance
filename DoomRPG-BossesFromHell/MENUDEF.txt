@@ -1,0 +1,14 @@
+AddOptionMenu "DoomRPG"
+{
+    StaticText ""
+	SubMenu "Bosses From Hell Options",            "BossesFromHell"
+}
+
+OptionMenu "BossesFromHell"
+{
+    Title "Bosses From Hell Options"
+    StaticText "ENTER to change"
+    StaticText "Changes require starting a new game!"
+    StaticText ""
+    Option "Bosses From Hell", "drpg_bfh", "OnOff"
+}

@@ -1,0 +1,231 @@
+// [Bosses From Hell]
+
+// Hub Maps
+
+map START "START" {
+	cluster = 99
+	levelnum = 89
+    music = "D_IDLE"
+	sky1 = "SKY1", 0.0
+}
+
+map HUB "EARTH" {
+	cluster = 99
+	levelnum = 90
+	music = "D_HUB"
+	sky1 = "SKY1", 0.0
+}
+
+map HUB2 "HELL" {
+	cluster = 99
+	levelnum = 91
+	music = "D_HUB2"
+	sky1 = "STSKY1", 0.0
+	next = "HUB2"
+}
+
+// Ending
+map END "ICON OF SIN" {
+	cluster = 99
+	levelnum = 99
+	music = "D_IDLE"
+	sky1 = "STSKY1", 0.0
+	next = "HUB2"
+}
+
+// Levels
+
+//a temporary cluster so Corruption Cards loads properly
+cluster 98 {}
+
+map MAP01 "Blood Demon" {
+	cluster = 98
+	levelnum = 1
+	sky1 = "SKY1", 0.0
+}
+
+map MAP02 "Hellstorm Archon" {
+	cluster = 98
+	levelnum = 2
+	sky1 = "SKY1", 0.0
+}
+
+map MAP03 "Bormereth" {
+	cluster = 98
+	levelnum = 3
+	sky1 = "STSKY14", 0.0
+}
+
+map MAP04 "Hellhound" {
+	cluster = 98
+	levelnum = 4
+	sky1 = "STSKY2", 0.0
+}
+
+map MAP05 "Aracnorb" {
+	cluster = 98
+	levelnum = 5
+	sky1 = "SKY1", 0.0
+}
+
+map MAP06 "Agathi Demon" {
+	cluster = 98
+	levelnum = 6
+	sky1 = "SKY1", 0.0
+}
+
+map MAP07 "Poe" {
+	cluster = 98
+	levelnum = 7
+	sky1 = "SKY1", 0.0
+}
+
+map MAP08 "Dark Baron" {
+	cluster = 98
+	levelnum = 8
+	sky1 = "STSKY14", 0.0
+}
+
+map MAP09 "Agatho Demon" { // Helemental
+	cluster = 98
+	levelnum = 9
+	sky1 = "SKY1", 0.0
+}
+
+map MAP10 "Warlords of Hell" {
+	cluster = 98
+	levelnum = 10
+	sky1 = "SKY1", 0.0
+}
+
+map MAP11 "Cybruiser" {
+	cluster = 98
+	levelnum = 11
+	sky1 = "SKY1", 0.0
+}
+
+map MAP12 "Cracko Demon" {
+	cluster = 98
+	levelnum = 12
+	sky1 = "SKY1", 0.0
+}
+
+map MAP13 "Lord of Heresy" {
+	cluster = 98
+	levelnum = 13
+	sky1 = "SKY1", 0.0
+}
+
+map MAP14 "Bruiser Demon" {
+	cluster = 98
+	levelnum = 14
+	sky1 = "SKY1", 0.0
+}
+
+map MAP15 "Pyro Demon" {
+	cluster = 98
+	levelnum = 15
+	sky1 = "STSKY1", 0.0
+}
+
+map MAP16 "Apprentice of Dsparil" {
+	cluster = 98
+	levelnum = 16
+	sky1 = "SKY1", 0.0
+}
+
+map MAP17 "Dark Cyberbaron" {
+	cluster = 98
+	levelnum = 17
+	sky1 = "SKY1", 0.0
+}
+
+map MAP18 "Arachno-baron" {
+	cluster = 98
+	levelnum = 18
+	sky1 = "SKY1", 0.0
+}
+
+map MAP19 "Terminator" {
+	cluster = 98
+	levelnum = 19
+	sky1 = "SKY1", 0.0
+}
+
+map MAP20 "Sentinel" {
+	cluster = 98
+    levelnum = 20
+    sky1 = "STSKY14", 0.0
+}
+
+map MAP21 "Demolisher" {
+	cluster = 98
+	levelnum = 21
+	sky1 = "SKY1", 0.0
+}
+
+map MAP22 "Haedexebus" {
+	cluster = 98
+	levelnum = 22
+	sky1 = "SKY1", 0.0
+}
+
+map MAP23 "Supreme Fiend" {
+	cluster = 98
+	levelnum = 23
+	sky1 = "SKY1", 0.0
+}
+
+map MAP24 "Cyber Mastermind" {
+	cluster = 98
+	levelnum = 24
+	sky1 = "SKY1", 0.0
+}
+
+map MAP25 "Annihilator" {
+	cluster = 98
+	levelnum = 25
+	sky1 = "SKY1", 0.0
+}
+
+map MAP26 "Thamuz" {
+	cluster = 98
+	levelnum = 26
+	sky1 = "SKY1", 0.0
+}
+
+map MAP27 "Dark Cardinal" {
+	cluster = 98
+	levelnum = 27
+	sky1 = "SKY1", 0.0
+}
+
+map MAP28 "Arachnophyter" {
+	cluster = 98
+	levelnum = 28
+	sky1 = "SKY1", 0.0
+}
+
+map MAP29 "Hell Smith's Apprentice" {
+	cluster = 98
+	levelnum = 29
+	sky1 = "SKY1", 0.0
+}
+
+map MAP30 "Diabloist" {
+	cluster = 98
+	levelnum = 30
+	sky1 = "STSKY1", 0.0
+}
+
+map MAP31 "Hell Smith" {
+	cluster = 98
+	levelnum = 31
+	sky1 = "STSKY1", 0.0
+}
+
+map MAP32 "Avatar" {
+	cluster = 98
+	levelnum = 32
+	sky1 = "STSKY1", 0.0
+}
