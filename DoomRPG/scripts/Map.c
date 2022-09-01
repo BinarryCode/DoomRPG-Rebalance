@@ -3672,7 +3672,8 @@ NamedScript void InitMapPacks()
         "drpg_comp_neo01",
         "drpg_comp_ann01",
         "drpg_comp_99w01",
-        "drpg_comp_bth01"
+        "drpg_comp_bth01",
+        "drpg_bfh"
     };
 
     str LumpNames[MAX_MAPPACKS] =
@@ -3813,7 +3814,8 @@ NamedScript void InitMapPacks()
         "NEO01",
         "ANN01",
         "99W01",
-        "BTH01"
+        "BTH01",
+        "START"
     };
     int i;
     bool BlankStart;
